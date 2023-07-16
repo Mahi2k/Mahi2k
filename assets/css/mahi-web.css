@@ -365,6 +365,10 @@ header
   transition: all 0.3s ease 0s;
 }
 
+.header-area .main-nav .logo img {
+  height:45px;
+  width:50px;
+}
 
 .header-area .main-nav .nav {
   float: right;
