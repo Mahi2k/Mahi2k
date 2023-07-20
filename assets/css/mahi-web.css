@@ -891,7 +891,7 @@ ul.slick-dots {
 
 .Modern-Slider .item h3 {
   margin-bottom: 25px;
-  font-size: 16px;
+  font-size: 36px;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
@@ -1602,6 +1602,11 @@ portfolio
 #projects .filters-content {
   margin-top: 50px;
 }
+#projects .filters-content .grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap:8px;
+}
 #projects .filters-content .show {
   opacity: 1;
   visibility: visible;
@@ -1641,15 +1646,12 @@ portfolio
 }
 #projects .filters-content .item img {
   width: 100%;
+  border: 4px solid black;
 }
 
 #projects {
   padding-top: 120px;
-}
-
-#projects .section-heading {
-  margin-bottom: 60px;
-}
+} 
 
 #projects .section-heading h6 {
   color: #5fb759;
